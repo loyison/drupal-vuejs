@@ -1,0 +1,84 @@
+body
+{
+ background: #eee;
+}
+#app
+{
+padding-top: 50px;
+}
+ul.navbar-nav li a
+{
+ margin-left: 20px;
+ color: #fff;
+ font-variant: small-caps;
+text-transform: uppercase;
+padding: 10px;
+}
+ul.navbar-nav li a:hover
+{
+ background:#fff;
+ color: #444;
+ text-decoration: none;
+ outline: none;
+}
+.navbar-brand img
+{
+height: 30px;
+}
+.navbar
+{
+ box-shadow:0px -2px 20px #aaa;
+ background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.album_img
+{
+ border-radius: 50%;
+height: 200px;
+width: 200px;
+margin: auto;
+padding:  10px;
+}
+.album_title
+{
+ text-align: center;
+ font-variant: small-caps;
+ text-transform: uppercase;
+font-weight: 500;
+letter-spacing: 2px;
+font-size: 20px;
+/*border-top: 1px solid #aaa;*/
+padding-bottom: 8px;
+}
+.card-text p
+{
+margin: 5px;
+}
+.card
+{
+ box-shadow: 1px 1px 20px  1px #ddd;
+ border:1px solid #ddd;
+ max-height: 100%;
+ border-radius: 10px;
+}
+.artist_img
+{
+ padding: 10px;
+ border-radius:50%;
+ height: 200px;
+ width: 200px;
+ margin: auto;
+ transform: 0.4s all ease-in;
+
+}
+
+#artist .card-body
+{
+ padding: 5px 0px 0px 0px;
+}
+#artist h5
+{
+  border-top:1px solid #ddd;
+font-size: 28px;
+}
